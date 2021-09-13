@@ -1,7 +1,14 @@
-body {
+/*------------------------
+ body section
+ -------------------  */
+  
+ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
-}
+} 
+/*-------------------
+ input section
+ -------------------------- */
 .search-field {
   border: none;
   border-radius: 50px;
@@ -25,10 +32,12 @@ body {
   border-radius: 25px;
   margin-left: 25px;
 }
+/*---------------------------- 
+product section
+------------------  */
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* border: 1px solid black; */
   text-align: center;
   width: 100%;
   margin: auto;
@@ -49,9 +58,11 @@ body {
   width: 150px;
   height: 150px;
 }
+/*-----------------------------
+ price section
+ -------------------  */
 .cart {
   width: 350px;
-  /* border: 1px solid green; */
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
   border-radius: 5px;
@@ -68,7 +79,6 @@ body {
   }
   .cart {
     width: 300px;
-    /* border: 1px solid green; */
     padding: 10px;
     box-shadow: 10px 10px 20px rgb(206, 199, 199);
     border-radius: 5px;
