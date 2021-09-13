@@ -25,6 +25,7 @@
   border-radius: 5px;
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 50px;
   border-right: none;
 }
 .search-button {
@@ -43,6 +44,7 @@ product section
   margin: auto;
   align-items: center;
   justify-content: center;
+  background-color: rgb(240, 237, 238);
 }
 .single-product {
   padding: 10px;
@@ -51,8 +53,8 @@ product section
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
-  border: 1px solid rgb(125, 212, 197);
-  background-color: rgb(212, 222, 224);
+  border: 2px solid rgb(16, 108, 194);
+  
 }
 .product-image {
   width: 150px;
